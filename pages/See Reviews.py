@@ -80,6 +80,7 @@ if __name__ == '__main__':
                         pos += 1
                 if(flag == 0):
                     dicti["Neutral"].append(feedback[0])
+                    neg += 1
         mx = max(neg, neu, pos)
         for x in dicti:
             l = len(dicti[x])
